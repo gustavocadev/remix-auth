@@ -7,7 +7,6 @@ type ReadJSON = {
 
 const readJSON = async (): Promise<ReadJSON> => {
     const data = await fs.readFile('./app/db/data.json', 'utf-8')
-    console.log(__dirname);
     return JSON.parse(data)
 
 }
