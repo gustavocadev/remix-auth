@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "password": "$2b$10$pshDZPgSXqfVdFA5yoP4NOi0xc7jbtaWLAxq7F5CqLfzTBXXZDQr.",
+            "username": "christopher",
+            "id": "d770ba68-086d-44e9-9415-4565a38dcc34"
+        },
+        {
+            "password": "$2b$10$YrCutiMw.EYnTiDwCRPmVez.Db/PE7J9RjnDB2c4PrXLY.QmOiDhK",
+            "username": "gustavoca",
+            "id": "a6dc302b-a719-430e-a842-f30f3d40105a"
+        }
+    ]
+}
