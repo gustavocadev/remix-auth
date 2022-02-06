@@ -7,10 +7,10 @@ import {
     redirect,
     useActionData,
 } from "remix";
-import { readJSON } from "~/helpers/readJSON.server";
+import { readJSON } from "~/helpers/readJSON";
 import { authenticator } from "~/services/auth.server";
 import { v4 as uuidv4 } from "uuid";
-import { writeJSON } from "~/helpers/writeJSON.server";
+import { writeJSON } from "~/helpers/writeJSON";
 import bcryptjs from "bcryptjs";
 import Error from "~/components/Error";
 

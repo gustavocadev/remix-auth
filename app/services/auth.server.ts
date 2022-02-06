@@ -1,6 +1,6 @@
 import { Authenticator, AuthorizationError  } from 'remix-auth'
 import { FormStrategy } from 'remix-auth-form'
-import { readJSON } from '~/helpers/readJSON.server'
+import { readJSON } from '~/helpers/readJSON'
 import { User } from '~/models/user'
 import { sessionStorage } from './session.server'
 import bcryptjs from 'bcryptjs';
